@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Allone Bank Worklist</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/modules/datatables.min.css">
+    <!-- 
+    <link rel="stylesheet" type="text/css" href="./assets/css/modules/dataTables.bootstrap4.min.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/modules/rowGroup.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/modules/searchPanes.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/modules/select.dataTables.min.css" /> -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/common.css" />
+</head>
+<body>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="table-wrapper">
+                    <div class="table-responsive">
+                        <table id="cmsList" class="worklist display table table-sm table-bordered order-column table-hover table-striped fixed">
+                            <colgroup>
+                                <col width="50px">
+                                <col width="70px">
+                                <col width="100px">
+                                <col width="180px">
+                                <col width="160px">
+                                <col width="160px">
+                                <col width="160px">
+                                <col width="130px">
+                                <col width="70px">
+                                <col width="80px">
+                                <col width="80px">
+                                <col width="80px">
+                                <col width="*">
+                            </colgroup>
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th><span>번호</span></th>
+                                    <th><span>서버</span></th>
+                                    <th><span>2Depth</span></th>
+                                    <th><span>3Depth</span></th>
+                                    <th><span>4Depth</span></th>
+                                    <th><span>5Depth</span></th>
+                                    <th><span>6Depth</span></th>
+                                    <th><span>화면ID</span></th>
+                                    <th><span>타입</span></th>
+                                    <th><span>완료</span></th>
+                                    <th><span>수정</span></th>
+                                    <th><span>상태</span></th>
+                                    <th><span>비고</span></th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="./assets/js/modules/datatables.min.js"></script> 
+    <!-- <script src="./assets/js/modules/bootstrap.min.js"></script> -->
+    <!-- <script type="text/javascript" charset="utf8" src="./assets/js/modules/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="./assets/js/modules/dataTables.bootstrap4.min.js"></script> -->
+    <script type="text/javascript" src="./assets/js/modules/dataTables.rowGroup.min.js"></script>
+    <!-- <script type="text/javascript" src="./assets/js/modules/dataTables.buttons.min.js"></script>
+    <script type="text/javascript" src="./assets/js/modules/dataTables.select.min.js"></script>
+    <script type="text/javascript" src="./assets/js/modules/dataTables.searchPanes.min.js"></script>  -->
+    <script type="text/javascript" src="listData.js"></script>
+    <script type="text/javascript" src="./assets/js/common.js"></script>
+</body>
+</html> 
